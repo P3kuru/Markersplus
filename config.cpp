@@ -1,6 +1,5 @@
-#define "markersplus\data\img\markersplus\data\img\"
 #define DEFAULT_SIZE 32
-#define DEFAULT_COLOR {1,1,1,1}
+#define DEFAULT_COLOR {0,0,0,1}
 #define DEFAULT_SCOPE 2
 #define DEFAULT_SHADOW 0
 
