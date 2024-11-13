@@ -1,16 +1,11 @@
-#define DEFAULT_SIZE 32
-#define DEFAULT_COLOR {0,0,0,1}
-#define DEFAULT_SCOPE 2
-#define DEFAULT_SHADOW 0
-
 class CfgPatches
 {
     class mplus_markers
     {
         name = "Markers+";
         author = "Pek";
-        tooltipOwned = "Markers+ By Pek";
-        overview = "Markers+ allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
+        tooltipOwned = "Markersplus By Pek";
+        overview = "Markersplus allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
         requiredVersion = 0.1;
     };
 };
@@ -27,10 +22,12 @@ class CfgMarkers
     // Base Classes
     class mplus_BaseMarker
     {
-        color[] = DEFAULT_COLOR;
-        size = DEFAULT_SIZE;
-        shadow = DEFAULT_SHADOW;
-        scope = DEFAULT_SCOPE;
+        icon = "markersplus\data\img\aapoint.paa";
+        name = "Base Marker"
+        color[] = {0,0,0,1};
+        size = 32;
+        shadow = 0;
+        scope = 2;
         showEditorMarkerColor = 1;
     };
     
