@@ -46,13 +46,35 @@ class CfgMarkers
     };
 
     // Tasks - Use inheritance to specify unique icons
-    class mplus_attackbyfire: mplus_ambush { name = "Attack by Fire"; icon = "markersplus\data\img\attackbyfire.paa"; };
-    class mplus_breach: mplus_ambush { name = "Breach"; icon = "markersplus\data\img\breach.paa"; };
-    class mplus_bypass: mplus_ambush { name = "Bypass"; icon = "markersplus\data\img\bypass.paa"; };
-    class mplus_clear: mplus_ambush { name = "Clear"; icon = "markersplus\data\img\clear.paa"; };
-    class mplus_disengage: mplus_ambush { name = "Disengage"; icon = "markersplus\data\img\disengage.paa"; };
-    class mplus_exfiltrate: mplus_ambush { name = "Exfiltrate"; icon = "markersplus\data\img\exfiltrate.paa"; };
-    // (Add other Task markers similarly, keeping only `name` and `icon`)
+    class mplus_attackbyfire: mplus_ambush { name="Attack by Fire"; icon="markersplus\data\img\attackbyfire.paa"; };
+    class mplus_breach: mplus_ambush { name="Breach"; icon="markersplus\data\img\breach.paa"; };
+    class mplus_bypass: mplus_ambush { name="Bypass"; icon="markersplus\data\img\bypass.paa"; };
+    class mplus_clear: mplus_ambush { name="Clear"; icon="markersplus\data\img\clear.paa"; };
+    class mplus_disengage: mplus_ambush { name="Disengage"; icon="markersplus\data\img\disengage.paa"; };
+    class mplus_exfiltrate: mplus_ambush { name="Exfiltrate"; icon="markersplus\data\img\exfiltrate.paa"; };
+    class mplus_followassume: mplus_ambush { name="Follow and Assume"; icon="markersplus\data\img\followassume.paa"; };
+    class mplus_followsupport: mplus_ambush { name="Follow and Support"; icon="markersplus\data\img\followsupport.paa"; };
+    class mplus_occupy: mplus_ambush { name="Occupy"; icon="markersplus\data\img\occupy.paa"; };
+    class mplus_retain: mplus_ambush { name="Retain"; icon="markersplus\data\img\retain.paa"; };
+    class mplus_secure: mplus_ambush { name="Secure"; icon="markersplus\data\img\secure.paa"; };
+    class mplus_seize: mplus_ambush { name="Seize"; icon="markersplus\data\img\seize.paa"; };
+    class mplus_supportbyfire: mplus_ambush { name="Support by Fire"; icon="markersplus\data\img\supportbyfire.paa"; };
+    class mplus_block: mplus_ambush { name="Block"; icon="markersplus\data\img\block.paa"; };
+    class mplus_canalize: mplus_ambush { name="Canalize"; icon="markersplus\data\img\canalize.paa"; };
+    class mplus_contain: mplus_ambush { name="Contain"; icon="markersplus\data\img\contain.paa"; };
+    class mplus_destroy: mplus_ambush { name="Destroy"; icon="markersplus\data\img\destroy.paa"; };
+    class mplus_disrupt: mplus_ambush { name="Disrupt"; icon="markersplus\data\img\disrupt.paa"; };
+    class mplus_fix: mplus_ambush { name="Fix"; icon="markersplus\data\img\fix.paa"; };
+    class mplus_isolate: mplus_ambush { name="Isolate"; icon="markersplus\data\img\isolate.paa"; };
+    class mplus_interdict: mplus_ambush { name="Interdict"; icon="markersplus\data\img\interdict.paa"; };
+    class mplus_neutralize: mplus_ambush { name="Neutralize"; icon="markersplus\data\img\neutralize.paa"; };
+    class mplus_supress: mplus_ambush { name="Suppress"; icon="markersplus\data\img\supress.paa"; };
+    class mplus_turn: mplus_ambush { name="Turn"; icon="markersplus\data\img\turn.paa"; };
+    class mplus_cordonknock: mplus_ambush { name="Cordon and Knock"; icon="markersplus\data\img\cordonknock.paa"; };
+    class mplus_cordonsearch: mplus_ambush { name="Cordon and Search"; icon="markersplus\data\img\cordonsearch.paa"; };
+    class mplus_guard: mplus_ambush { name="Guard"; icon="markersplus\data\img\guard.paa"; };
+    class mplus_screen: mplus_ambush { name="Screen"; icon="markersplus\data\img\screen.paa"; };
+    class mplus_cover: mplus_ambush { name="Cover"; icon="markersplus\data\img\cover.paa"; };
 
     // Movement and Maneuver
     class mplus_feintattack: mplus_BaseMarker
