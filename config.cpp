@@ -2,7 +2,7 @@ class CfgPatches
 {
     class mplus_markers
     {
-        name = "Markers+";
+        name = "Markersplus";
         author = "Pek";
         tooltipOwned = "Markersplus By Pek";
         overview = "Markersplus allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
