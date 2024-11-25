@@ -7,6 +7,9 @@ class CfgPatches
         tooltipOwned = "Markersplus By Pek";
         overview = "Markersplus allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
         requiredVersion = 0.1;
+        units[] = {};
+        weapons[] = {};
+        requiredAddons[] = {};
     };
 };
 
@@ -23,7 +26,7 @@ class CfgMarkers
     class mplus_BaseMarker
     {
         icon = "markersplus\data\img\aapoint.paa";
-        name = "Base Marker"
+        name = "Base Marker";
         color[] = {0,0,0,1};
         size = 32;
         shadow = 0;
