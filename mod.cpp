@@ -1,0 +1,14 @@
+name            = "MarkersPlus";
+author          = "Pek";
+picture         = "";
+logo            = "\markersplus\data\logo.paa";
+logoOver        = "\markersplus\data\logoOver.paa";
+logoSmall       = "\markersplus\data\logo.paa";
+tooltip         = "Markersplus By Pek";
+tooltipOwned    = "Markersplus By Pek";
+actionName      = "Github";
+action          = "https://github.com/0xBC13FE/Markersplus";
+overview        = "Markersplus allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
+dlcColor[]      = {0.85,0.4,0,1};
+hideName        = 0;
+hidePicture     = 0;

@@ -2,14 +2,37 @@ class CfgPatches
 {
     class mplus_markers
     {
-        name = "Markersplus";
-        author = "Pek";
-        tooltipOwned = "Markersplus By Pek";
-        overview = "Markersplus allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
-        requiredVersion = 0.1;
-        units[] = {};
-        weapons[] = {};
-        requiredAddons[] = {};
+        author="Pek";
+        requiredVersion=2.14;
+        requiredAddons[]=
+        {
+            "A3_Data_F_Enoch_Loadorder"
+        };
+        units[]={};
+        weapons[]={};
+    };
+};
+
+class cfgMods
+{
+    class Mod_Base;
+    class MarkerPlus: Mod_Base
+    {
+        dir="MarkersPlus";
+        name="MarkersPlus";
+        author="Pek";
+        picture="";
+        logo="\markersplus\data\logo.paa";
+        logoOver="\markersplus\data\logoOver.paa";
+        logoSmall="\markersplus\data\logo.paa";
+        tooltip="Markersplus By Pek";
+        tooltipOwned="Markersplus By Pek";
+        actionName="Github";
+        action="https://github.com/0xBC13FE/Markersplus";
+        overview="Markersplus allows platoon/company level Command elements to better manage their markers on the map using different symbols, text and terms.";
+        dlcColor[]={0.85,0.4,0,1};
+        hideName=0;
+        hidePicture=0;
     };
 };
 
@@ -33,14 +56,12 @@ class CfgMarkers
         scope = 2;
         showEditorMarkerColor = 1;
     };
-    
     class mplus_aapoint: mplus_BaseMarker
     {
         markerClass = "mplus_points";
         name = "Generic Point";
         icon = "markersplus\data\img\aapoint.paa";
     };
-    
     class mplus_ambush: mplus_BaseMarker
     {
         markerClass = "mplus_tasks";
